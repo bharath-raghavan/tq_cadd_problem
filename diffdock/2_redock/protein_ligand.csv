@@ -1,0 +1,2 @@
+complex_name,ligand_description,protein_path,protein_sequence
+0G6_docking,../2_vina/0G6_H.sdf,../1ppb.pdb,
