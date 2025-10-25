@@ -27,7 +27,6 @@ def _compute_props(df):
             tpsa.append(rdMolDescriptors.CalcTPSA(m))
             fsp3.append(rdMolDescriptors.CalcFractionCSP3(m))
             heavy.append(m.GetNumHeavyAtoms())
-            ch.append(Chem.rdmolops.GetFormalCharge(m))
 
         df['mol'] = mol
         df['rb'] = rb
@@ -36,7 +35,6 @@ def _compute_props(df):
         df['tpsa'] = tpsa
         df['fsp3'] = fsp3
         df['heavy'] = heavy
-        df['ch'] = ch
         return df
 
 def _get_cluster_representative(df, cutoff):
@@ -118,9 +116,9 @@ class FilterAgent:
         print(f"Number of analogs: {len(df_analogs)}, the rest: {len(df_not_analog)}")
 
         print("Clustering non-analogs")
-        df_not_analog_cluster = _get_cluster_representative(df_not_analog, not_analog_cutoff) # molecules with simlarity >= 30% will be grouped together
+        df_not_analog_cluster = _get_cluster_representative(df_not_analog, not_analog_cutoff) # molecules with simlarity >= 1-cutoff will be grouped together
         print("Clustering analogs")
-        df_analog_cluster = _get_cluster_representative(df_analogs, analog_cutoff) # molecules with simlarity >= 50% will be grouped together
+        df_analog_cluster = _get_cluster_representative(df_analogs, analog_cutoff) # molecules with simlarity >= 1-cutoff will be grouped together
 
         self.df = pd.concat([df_analog_cluster, df_not_analog_cluster])
     
