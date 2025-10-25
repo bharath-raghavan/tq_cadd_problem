@@ -1,0 +1,11 @@
+smiles,score
+C[C@@H]1Oc2ccccc2O[C@H]1C(=O)N1CCC[C@@H](N2CCNC2=O)C1,-9.197
+Cc1nc([C@@H]2CCCN(C(=O)CCc3cccnc3)C2)cc(=O)[nH]1,-8.886
+C[C@@]1(C(=O)N2CCC(c3nc4cc(F)ccc4[nH]3)CC2)CCCCO1,-8.811
+Cc1ccc(CNC(=O)N[C@@H]2CCCN(c3ncccn3)C2)cn1,-8.789
+O=C(Cc1ccco1)N1CC[C@@]2(C[C@H](Nc3ncccn3)CCO2)C1,-8.776
+Cc1cccc(Nc2nc(C[N@@H+]3C[C@@H]4CC(=O)N[C@@H]4C3)nc(=N)[nH]2)c1,-8.766
+CO[C@@H](CNc1ncnc(N[C@@H]2CCC[NH2+]C2)n1)c1cccc(C)c1,-8.738
+Cc1nc(C)n([C@H]2CCCN(C(=O)c3cccc4c[nH]nc34)C2)n1,-8.724
+Cc1cccc(Nc2nc(N)nc(C[N@@H+]3C[C@@H]4CC(=O)N[C@@H]4C3)n2)c1,-8.698
+CN(C)c1n[nH]c(-c2cccc(C(=O)NCC[NH+]3CCCCC3)c2)n1,-8.684
