@@ -1,0 +1,19 @@
+ame: cadd-challenge
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.6
+  - openbabel==3.1.0
+  - vina==1.2.7 # should be downloaded from website
+  - pip
+  - pip:
+      - biopython==1.79
+      - matplotlib==3.9.4
+      - meeko==0.6.1
+      - molscrub==0.2.2
+      - numpy==1.23.5
+      - pandas==2.3.3
+      - ProDy==2.4.1
+      - rdkit==2025.9.1
+      - tqdm==4.67.1
+      - pdb2pqr==3.6.2
