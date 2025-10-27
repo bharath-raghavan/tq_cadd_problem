@@ -5,6 +5,7 @@ dependencies:
   - python=3.9.6
   - openbabel==3.1.0
   - vina==1.2.7 # should be downloaded from website
+  - diffdock==1.1 # can be involved
   - pip
   - pip:
       - biopython==1.79
