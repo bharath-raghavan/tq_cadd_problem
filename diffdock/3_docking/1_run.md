@@ -19,7 +19,7 @@ The most highly ranked poses for each molecule is written to `poses/<complex_nam
 cat poses/*/rank1.sdf > in.sdf
 ```
 
-DiffDock removes all hydrogens from the input file, as they are implicity considered in the model. We will need to add them back for docking with Vina. We use `obabel` so as to not generate additional conformers:
+DiffDock removes all hydrogens from the input file, as they are implicity treated in the model. We will need to add them back for docking with Vina. We use `obabel` so as to not generate additional conformers:
 
 ```
 obabel in.sdf -Oligands.sdf -ph 7.4
