@@ -4,7 +4,7 @@ Submission for "Technical Challenge – Computer-Aided Drug Discovery (CADD)" fr
 
 by Bharath Raghavan
 
-D-Phe-Pro-Arg chloromethylketone is a known covalent inhibitor of Thrombin. In this work, a short rigid docking-based virtual screening simulation is performed to obtain molecules that non-covalently bind to the same pocket. The Zinc20 database was used, and 250 molecules were selected for screening. From this, the top 10 binders were identified and confirmed to mimic the same non-covalent interactions as D-Phe-Pro-Arg chloromethylketone. Mainly, this is the hydrophobic interaction with the hydrophobic cage formed by Ile174, Trp215, Leu99, His57, Tyr6OA and Trp6OD (chymotrypsinogen numbering) in thrombin. Based on ADMET analysis, a ``lead score'' was calculated, and 5 compounds were suggested for further lead optimization.
+D-Phe-Pro-Arg chloromethylketone is a known covalent inhibitor of Thrombin. In this work, a short rigid docking-based virtual screening simulation is performed to obtain molecules that non-covalently bind to the same pocket. The Zinc20 database was used, and 250 molecules were selected for screening. From this, the top 10 binders were identified and confirmed to mimic the same non-covalent interactions as D-Phe-Pro-Arg chloromethylketone. Mainly, this is the hydrophobic interaction with the hydrophobic cage formed by Ile174, Trp215, Leu99, His57, Tyr6OA and Trp6OD (chymotrypsinogen numbering) in thrombin. Based on ADMET analysis, a "lead score" was calculated, and 5 compounds were suggested for further lead optimization.
 
 Below is the list of 10 compounds with their lead scores:
 
